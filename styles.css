@@ -1,0 +1,407 @@
+
+/* Core */
+	
+body {
+  padding:0;
+  margin:0;
+}
+
+body, p, th, td, li {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:0.95em;
+
+}
+
+p {
+  margin-top:0;
+  margin-bottom:1em;
+}
+
+#page {
+  margin:10px 1%;
+}
+
+#layout-table {
+  margin:0;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.weeks-format, .topics-format {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.tabtree ul li ul li a.nolink span {
+  color:#000;
+}
+
+/* Header */
+
+#header h1.headermain,
+#header-home h1.headermain {
+  font-size:2.3em;
+  padding:10px 0 20px 15px;
+  line-height:0.7;
+  font-weight:normal;
+  text-align: left;
+}
+
+#header h1.headermain {
+  font-size:1.75em;
+}
+
+h1.headermain span {
+  font-size:0.45em;
+  color:#bbb;
+}
+
+h1.headermain span p {
+  margin-bottom: 0;
+}
+
+.headermenu {
+  color:#ccc;
+  margin-right:15px;
+}
+
+/* Navbar */
+
+.navbar {
+  border:none;
+  margin:0;
+  padding-left: 10px;
+}
+
+.navbar .breadcrumb .sep {
+  font-size:0.8em;
+  padding:0 2px;
+}
+/* Content */
+
+#content {
+  margin:0 11px;
+  background: #fff;
+  padding:10px 0 5px;
+}
+
+#site-index #content,
+#course-view #content {
+  padding-top:0;
+}
+
+.sitetopic {
+  border:none;
+}
+
+h2.headingblock {
+  background:url(images/gradient.jpg) repeat-x 0 0;
+  border-color:#EFF0F1;
+  border-width:0 0 1px 0;
+  padding:4px 5px 2px;
+  text-align: left;
+}
+
+/* Sideblocks 
+
+** removed on 20090406 for accessibility. **
+** New sideblock styling below. 					**
+
+.sideblock .header {
+  padding:7px 8px 0;
+  border:none;
+  background:url(images/sideblock_t.jpg) no-repeat 0 0;
+}
+
+.sideblock .title h2 {
+  font-size:1.1em;
+}
+
+.sideblock .content {
+  background:#f2f2f2;
+  border-width:0 1px 0 1px;
+  border-color:#e3e3e3;
+  padding-bottom:0;
+}
+
+.sideblock {
+  background:url(images/sideblock_b.jpg) no-repeat 0 100%;
+  padding-bottom:11px;
+}
+
+.block_login .header {
+  background:url(images/sideblock-y_t.jpg) no-repeat 0 0;
+}
+
+.block_login .content {
+  background:#fcfed9;
+  border-color:#ebedc8;
+}
+
+.block_login {
+  background:url(images/sideblock-y_b.jpg) no-repeat 0 100%;
+}
+
+#right-column .hidden .header,
+#left-column .hidden .header {
+  border-bottom:none;
+}
+
+#left-column .hidden {
+  padding-bottom:11px;
+}
+
+.sideblock .title .commands {
+  padding-bottom:5px;
+}
+
+.block_adminblock {
+  width:200px;
+}
+
+.weeks-format #left-column,
+.weeks-format #right-column,
+.topics-format #left-column,
+.topics-format #right-column {
+  width: 200px;
+}
+
+.weeks-format #middle-column ,
+.topics-format #middle-column {
+  margin: 0 210px 0 210px;
+}
+
+.block_course_summary .header,
+.block_course_summary .content,
+.block_course_summary {
+  background: none;
+  border: none;
+}
+
+.block_online_users .info {
+  padding-bottom: 3px;
+}
+
+*/
+
+/* Sideblocks */
+
+.sideblock .header {
+  background:url(images/gradient.jpg) repeat-x 0 0;
+  border-color:#EFF0F1;
+  padding:5px 7px 2px;
+  color:#444;
+  font-size:1em;
+}
+
+.sideblock .content {
+  border-color:#EFF0F1;
+  background:none;
+  border-top-width:2px;
+}
+
+.sideblock li {
+  line-height:1.5;
+}
+
+.sideblock .content hr {
+  background:#eff0f1;
+  border-color:#eff0f1;
+}
+
+/* Calendar */
+
+.sidecalendar .sideblock,
+.sidecalendar .sideblock .header {
+  background:none;
+}
+
+/* User */
+
+.userinfobox {
+  border:none;
+}
+
+.userinfobox .content {
+  border:1px solid #ddd;
+  background:#f2f2f2;
+}
+
+
+/* Course */
+
+.coursebox {
+  border-width: 0 0 1px 0;
+  padding-bottom:10px;
+}
+
+.categorybox {
+  border:none;
+}
+.coursebox .info {
+  width:35%;
+}
+
+.coursebox .summary {
+  width:55%;
+}
+
+.coursebox .teachers {
+  padding-left: 1.5em;
+}
+
+.courseboxes {
+  width:60%;
+  margin: 0 auto;
+}
+
+#intro {
+  background:#f2f2f2;
+}
+
+/* Forums */
+
+.forumpost {
+  border-width:0;
+}
+
+.forumpost td.left {
+  background:none;
+}
+
+.forumpost td.content {
+  border-width:1px 0 2px 0;
+  border-style:solid;
+  padding-top:10px;
+}
+
+.forumpost .topic {
+  background:#f2f2f2;
+}
+
+.forumpost .topic.starter {
+  background:#ddd;
+}
+
+.forumpost .topic.starter .subject {
+  font-size:1.2em;
+}
+
+/* Tables */
+
+#participants th,
+#user-grade th,
+.logtable th,
+.editcourse th,
+#admin-roles-override th,
+#admin-roles-assign th,
+.forumheaderlist th {
+  background:#f2f2f2;
+  border-bottom:1px solid #bbb;
+
+}
+
+/* Login */
+
+.loginbox {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+
+/* Modules */
+
+#mod-forum-search #wrapper-br {
+	padding-bottom: 21px;
+}
+
+#mod-forum-search .generalbox {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#mod-forum-search #content {
+  padding:0 5% 20px 5%}
+
+/* Footer */
+
+#footer {
+  margin:0 !important;
+  color:#ccc;
+}
+#footer-logo {
+  float:left;
+  padding-left:20px;
+  line-height: 0;
+}
+
+#footer-loggedinas {
+  float:right;
+  padding-right:20px;
+}
+
+#footer-helplink {
+  font-size: 0.8em;
+  float: right;
+  padding-left: 15px;
+  line-height: 1em;
+  padding-top: 3px;
+}
+
+#footer-helplink img {
+  margin-bottom: 5px;
+}
+
+.linkback {
+  text-align:center;
+  font-size:10px;
+}
+
+.linkback a:link,
+.linkback a:visited {
+  color: #999;
+}
+
+.linkback a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.linkback {
+  display:none;
+}
+
+#site-index .linkback,
+#course-view .linkback,
+#course-index .linkback,
+#user-view .linkback,
+#login-index .linkback {
+  display: block;
+}
+
+/* Message Popup */
+
+body.message {
+  background: #fff;
+}
+
+body.message div {
+  background-image: none !important;
+}
+
+body.message #page {
+  margin: 0;
+}
+
+body.message #footer {
+  display: none;
+}
+
+/* Various Hacks */
+
+#theme-index #page {
+  min-width: 900px;
+}
+
+.admin #page {
+  min-width: 700px;
+}

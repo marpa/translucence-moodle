@@ -1,0 +1,200 @@
+body {
+   background: url('images/white-gray.jpg') repeat-x;
+   background-color:#F5F5F5;
+   margin-top: 10px;
+   text-align: left;
+}
+
+a:link,
+a:visited,
+.tabtree ul li ul li a span {
+  color:#003366;
+}
+
+a:hover {
+  color:#003366;
+}
+
+#header {
+	border: 1px 0 0 0;
+	border-bottom: 0px solid #999999;
+	border-top: 0px solid #999999;
+	margin: 0 0 0 1px;
+	padding: 0 2px 0 2px;
+}
+
+.pagebgcolor {
+	background: transparent;
+}
+
+.headermeta {     
+    margin-top: 10px;
+}
+
+.bgtextcolor {
+	color: #CCCCCC;
+}
+
+.bgtextcolor a {
+	color: #999999;
+}
+
+.bgtextcolor a:hover {
+	color: #999999;
+}
+
+.sitewrapper {
+	margin: 1em auto;
+	max-width: 1000px;
+}
+
+.headermeta_left {
+	width: 30%;	
+	text-align: left;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.headermeta_right {
+	width: 60%;
+	text-align: right;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+#page {
+	background: #fff;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 0px 1%;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 5px #888;
+	-moz-box-shadow: 0px 0px 5px #888;
+	-webkit-box-shadow: 0px 0px 5px #888;
+}
+
+.footermeta_left {
+	width: 50%;	
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+.footermeta_right {
+	width: 40%;
+	text-align: right;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+.block_header {	
+	background-color: transparent;
+
+	background-repeat:repeat-x 0 0;			
+	padding-top: 1px;
+	height: 70px;
+}
+
+.headerright {
+
+	float: right;
+	height: 46px;
+	margin-top: 10px;
+	padding-left: 145px;
+}
+
+.headercourseright {
+	background:url(images/logo-compact.png) no-repeat;
+	float: right;
+	height: 46px;
+	margin-top: -50px;
+	padding-left: 50px;
+}
+
+.headermenu a:link,
+.headermenu a:visited {  
+  color: #999999;
+}
+
+h2.headingblock,
+.forumpost .content {
+  border-color:#EFF0F1;
+  text-align: left;
+}
+
+#header h1.headermain,
+#header-home h1.headermain {
+  color:#003366;
+  font-size: 2.4em;
+}
+
+h1.headermain span {
+	font-size: 0.45em;
+	color: #333;
+}
+
+h1.headercourse {
+  border-top: none;
+  font-size:2.3em;
+  color:#003366;
+  padding:0 0 0 15px;
+  font-weight:normal;
+  text-align: left;
+  text-shadow: #777 1px 1px 0.08em
+}
+
+
+.navbar,
+#course-view .weeks .current td.side,
+#course-view .topics .current td.side {
+  background: #eee;
+  background: -moz-linear-gradient(#fff, #eee);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+  background: -webkit-linear-gradient(#fff, #eee);
+  border: 1px solid #ddd;
+
+}
+
+.navbar a:link,
+.navbar a:visited {
+  color:#003366;
+}
+
+.navbar a:hover {
+  color:#003366;
+}
+
+.navbar .breadcrumb .sep {
+  color:#333;
+}
+
+.navbar .breadcrumb {
+	margin-top: 5px;
+}
+
+.sideblock .content {
+  background-color:#FFFFFF;
+  text-align: left;
+}
+
+#footer {
+  
+}
+
+#content {
+  background: #FFFFFF;
+}
+
+#footer-helplink {
+  float: left;
+  padding-left: 10px;
+}

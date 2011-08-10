@@ -1,0 +1,79 @@
+/***************************
+** YUI Menubar styles
+***************************/
+
+.yuimenubar /* Entire bar */ 
+{
+  background: #eee;
+  background: -moz-linear-gradient(#fff, #eee);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+  background: -webkit-linear-gradient(#fff, #eee);
+  border: 1px solid #ddd;
+  clear: both;
+
+  margin: 0 0 10px 0;
+}
+
+.yuimenu /* Sub container */ 
+{
+  background: #eee;
+}
+
+.yuimenu a {
+  text-decoration: none;
+}
+
+a.yuimenubaritemlabel /* Bar item link */ 
+{
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #ddd;
+  padding: 7px 24px;
+  color: #000;
+}
+
+a.yuimenuitemlabel /* Sub item link */ 
+{
+  padding: 7px 24px;
+  color: #000;
+}
+
+.yuimenubar li.first-of-type .yuimenubaritemlabel {
+  border-width: 0; /* No border on the first bar item link */
+}
+
+.yuimenubaritem-hassubmenu /* Add down arrow to bar item */ 
+{
+  background: url(images/menu/menubaritem_submenuindicator.png) right center no-repeat;
+}
+
+.yuimenuitem-hassubmenu /* Add right arrow to sub item */ 
+{
+  background: url(images/menu/menuitem_submenuindicator.png) right center no-repeat;
+}
+
+/* Selected MenuItem */
+
+li.yuimenubaritem-selected, /* Bar menu item */
+li.yuimenuitem-selected  /* Sub menu item */ 
+{
+  background-color: #333;
+
+}
+
+a.yuimenubaritemlabel-selected, /* Bar menu item link selected */
+a.yuimenuitemlabel-selected  /* Sub menu item link selected */ 
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+.yuimenubaritem-hassubmenu-selected /* Change down arrow on bar item */
+{
+  background-image: url(images/menu/menubaritem_submenuindicator_selected.png);
+}
+
+.yuimenuitem-hassubmenu-selected /* Change right arrow on sub item */
+{
+  background-image: url(images/menu/menuitem_submenuindicator_selected.png);
+}
