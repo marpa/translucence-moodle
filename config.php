@@ -144,7 +144,7 @@ $THEME->filter_mediaplugin_colors =
 /// ...And this controls the small embedded player
 
 
-$THEME->custompix = false;
+$THEME->custompix = true;
 
 /// If true, then this theme must have a "pix" 
 /// subdirectory that contains copies of all 
