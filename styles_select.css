@@ -200,9 +200,6 @@ h1.headercourse {
 }
 
 .forumpost .topic.starter {
-  background: #eee;
-  background: -moz-linear-gradient(#fff, #eee);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
-  background: -webkit-linear-gradient(#fff, #eee);
+  background:url(images/gradient-light.jpg) repeat-x 0 0;
   border: 1px solid #ddd;
 }
