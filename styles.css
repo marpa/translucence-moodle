@@ -97,8 +97,7 @@ h1.headermain span p {
 h2.headingblock {
   background:url(images/gradient.jpg) repeat-x 0 0;
   border-color:#EFF0F1;
-  border-width:0 0 1px 0;
-  padding:4px 5px 2px;
+  padding:4px 5px 5px;
   text-align: left;
 }
 
