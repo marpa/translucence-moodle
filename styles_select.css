@@ -198,3 +198,11 @@ h1.headercourse {
   float: left;
   padding-left: 10px;
 }
+
+.forumpost .topic.starter {
+  background: #eee;
+  background: -moz-linear-gradient(#fff, #eee);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+  background: -webkit-linear-gradient(#fff, #eee);
+  border: 1px solid #ddd;
+}
